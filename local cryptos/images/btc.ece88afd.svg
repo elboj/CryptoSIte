@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btc</title>
+    <defs>
+        <circle id="path-1" cx="42" cy="42" r="42"></circle>
+        <filter x="-10.1%" y="-7.7%" width="120.2%" height="120.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M42.5292,22.456 C43.4084,16.5872 38.9368,13.4316 32.8272,11.326 L34.8096,3.374 L29.9712,2.17 L28.0392,9.912 C26.768,9.5928 25.4632,9.296 24.1612,8.9992 L26.1072,1.2068 L21.2688,0 L19.2864,7.9492 C18.2336,7.7084 17.1976,7.4732 16.1952,7.2212 L16.2008,7.196 L9.5256,5.53 L8.2376,10.6988 C8.2376,10.6988 11.83,11.522 11.7544,11.5724 C13.7144,12.0624 14.0672,13.3588 14.0084,14.3892 L11.7516,23.4472 C11.886,23.4808 12.0596,23.5312 12.2556,23.6068 L11.7432,23.4808 L8.5792,36.1704 C8.3384,36.764 7.7308,37.6572 6.3588,37.3184 C6.4092,37.3884 2.842,36.442 2.842,36.442 L0.4396,41.9804 L6.7396,43.5512 C7.91,43.8452 9.058,44.1532 10.1864,44.4416 L8.1844,52.4832 L13.02,53.6872 L15.0024,45.7352 C16.324,46.0908 17.6064,46.4212 18.8608,46.7348 L16.884,54.6532 L21.7224,55.8572 L23.7244,47.8324 C31.9788,49.3948 38.1836,48.7648 40.796,41.3 C42.9016,35.2912 40.6924,31.822 36.3496,29.5624 C39.5136,28.8344 41.8936,26.754 42.5292,22.456 L42.5292,22.456 Z M31.4692,37.9624 C29.9768,43.974 19.8548,40.7232 16.5732,39.9084 L19.2332,29.2544 C22.5148,30.0748 33.0344,31.696 31.4692,37.9624 Z M32.9672,22.3692 C31.6036,27.8376 23.1812,25.0572 20.4512,24.3768 L22.8592,14.7168 C25.5892,15.3972 34.3896,16.6656 32.9672,22.3692 Z" id="path-4"></path>
+        <filter x="-13.0%" y="-6.3%" width="126.1%" height="119.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.13 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="btc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-4.000000, -5.000000)">
+            <g id="bitcoin-icon" transform="translate(51.000000, 51.000000) rotate(-14.000000) translate(-51.000000, -51.000000) translate(9.000000, 9.000000)">
+                <g id="b-link" fill="#000000" fill-rule="nonzero">
+                    <circle id="b" cx="42" cy="42" r="42"></circle>
+                </g>
+                <g id="b-link" fill-rule="nonzero">
+                    <g id="b">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFA942" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="b-link" style="mix-blend-mode: soft-light;" fill="url(#linearGradient-3)" fill-rule="nonzero">
+                    <circle id="b" cx="42" cy="42" r="42"></circle>
+                </g>
+                <circle id="Oval" stroke-opacity="0.04" stroke="#000000" stroke-width="3" cx="42" cy="42" r="40.6"></circle>
+                <g id="Group" transform="translate(19.600000, 14.000000)">
+                    <g id="e-link" fill="#000000" fill-rule="nonzero">
+                        <path d="M42.5292,22.456 C43.4084,16.5872 38.9368,13.4316 32.8272,11.326 L34.8096,3.374 L29.9712,2.17 L28.0392,9.912 C26.768,9.5928 25.4632,9.296 24.1612,8.9992 L26.1072,1.2068 L21.2688,0 L19.2864,7.9492 C18.2336,7.7084 17.1976,7.4732 16.1952,7.2212 L16.2008,7.196 L9.5256,5.53 L8.2376,10.6988 C8.2376,10.6988 11.83,11.522 11.7544,11.5724 C13.7144,12.0624 14.0672,13.3588 14.0084,14.3892 L11.7516,23.4472 C11.886,23.4808 12.0596,23.5312 12.2556,23.6068 L11.7432,23.4808 L8.5792,36.1704 C8.3384,36.764 7.7308,37.6572 6.3588,37.3184 C6.4092,37.3884 2.842,36.442 2.842,36.442 L0.4396,41.9804 L6.7396,43.5512 C7.91,43.8452 9.058,44.1532 10.1864,44.4416 L8.1844,52.4832 L13.02,53.6872 L15.0024,45.7352 C16.324,46.0908 17.6064,46.4212 18.8608,46.7348 L16.884,54.6532 L21.7224,55.8572 L23.7244,47.8324 C31.9788,49.3948 38.1836,48.7648 40.796,41.3 C42.9016,35.2912 40.6924,31.822 36.3496,29.5624 C39.5136,28.8344 41.8936,26.754 42.5292,22.456 L42.5292,22.456 Z M31.4692,37.9624 C29.9768,43.974 19.8548,40.7232 16.5732,39.9084 L19.2332,29.2544 C22.5148,30.0748 33.0344,31.696 31.4692,37.9624 Z M32.9672,22.3692 C31.6036,27.8376 23.1812,25.0572 20.4512,24.3768 L22.8592,14.7168 C25.5892,15.3972 34.3896,16.6656 32.9672,22.3692 Z" id="e"></path>
+                    </g>
+                    <g id="e">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

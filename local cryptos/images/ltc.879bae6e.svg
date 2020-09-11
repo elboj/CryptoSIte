@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ltc</title>
+    <defs>
+        <circle id="path-1" cx="42" cy="42" r="42"></circle>
+        <filter x="-10.1%" y="-7.7%" width="120.2%" height="120.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="3.9956 31.3992 0 32.9504 1.9264 25.2252 5.9696 23.6012 11.7964 0 26.1576 0 21.9044 17.3488 25.8524 15.75 23.9484 23.45 19.9528 25.0488 17.5784 34.8012 39.2 34.8012 36.7556 44.8 0.7056 44.8"></polygon>
+        <filter x="-14.0%" y="-7.8%" width="128.1%" height="124.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.13 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ltc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="litecoin-icon" transform="translate(5.500000, 5.500000)">
+            <g id="b-link" fill="#000000" fill-rule="nonzero">
+                <circle id="b" cx="42" cy="42" r="42"></circle>
+            </g>
+            <g id="b-link" fill-rule="nonzero">
+                <g id="b">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#3B3B3B" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="b-link" style="mix-blend-mode: soft-light;" fill="url(#linearGradient-3)" fill-rule="nonzero">
+                <circle id="b" cx="42" cy="42" r="42"></circle>
+            </g>
+            <circle id="Oval" stroke-opacity="0.04" stroke="#000000" stroke-width="3" cx="42" cy="42" r="40.6"></circle>
+            <g id="e-link" transform="translate(22.400000, 19.600000)" fill="#000000" fill-rule="nonzero">
+                <polygon id="e" points="3.9956 31.3992 0 32.9504 1.9264 25.2252 5.9696 23.6012 11.7964 0 26.1576 0 21.9044 17.3488 25.8524 15.75 23.9484 23.45 19.9528 25.0488 17.5784 34.8012 39.2 34.8012 36.7556 44.8 0.7056 44.8"></polygon>
+            </g>
+            <g id="e" transform="translate(22.400000, 19.600000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,166 @@
+@font-face {
+  font-family: spaceBold;
+  src: url(fonts/SpaceGrotesk-Bold.otf); }
+@font-face {
+  font-family: robotoRegular;
+  src: url(fonts/Roboto-Regular.ttf); }
+@font-face {
+  font-family: robotoLight;
+  src: url(fonts/Roboto-Light.ttf); }
+@font-face {
+  font-family: robotoBold;
+  src: url(fonts/Roboto-Bold.ttf); }
+/*-------------------------------------------*/
+.hamburger {
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  border-radius: 50%;
+  border: 1px solid #FCFCFA;
+  padding: 10px 10px;
+  transition: 0.4s;
+  background-color: #F0F0F0;
+  float: left; }
+
+.x_button {
+  margin-top: -135px; }
+
+.nav_bar p {
+  font-family: robotoBold;
+  float: left;
+  margin: 25px 20px; }
+
+.contact_button {
+  padding: 10px;
+  background-color: #9C71FF;
+  border: none;
+  color: white;
+  font-family: spaceBold;
+  border-radius: 5px;
+  width: 80px;
+  margin-top: 15px; }
+
+@media (min-width: 320px) {
+  .nav_bar {
+    max-width: 100%;
+    height: 100px; }
+
+  .header_area {
+    max-width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center; }
+
+  .header_area p:first-child {
+    font-family: robotoRegular; }
+
+  .header_area h1 {
+    font-family: robotoBold;
+    font-weight: 900px;
+    font-size: 40px;
+    margin-top: 40px; }
+
+  .header_area p:nth-child(3) {
+    font-family: robotoRegular;
+    margin-top: 40px; }
+
+  .header_area button {
+    padding: 10px;
+    background-color: #9C71FF;
+    border: none;
+    color: white;
+    font-family: spaceBold;
+    border-radius: 5px;
+    width: 80px;
+    width: 80%;
+    margin-top: 40px; }
+
+  .header_static_slider {
+    height: 200px;
+    max-width: 100%; }
+
+  .header_static_slider img {
+    object-fit: contain;
+    max-width: 100%; }
+
+  .header_section_bottom {
+    background-color: #f8f8f8; }
+
+  .header_section_bottom p {
+    font-family: robotoRegular;
+    line-height: 25px;
+    padding: 10px 20px; }
+
+  .mid_section {
+    width: 100%;
+    height: auto; }
+
+  .box {
+    max-width: 90%;
+    height: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F7F6FF;
+    border-radius: 10px;
+    margin: 40px auto;
+    background-color: #F7F6FF;
+    text-align: center; }
+
+  .box h4 {
+    font-family: robotoBold;
+    margin-top: 40px; }
+
+  .box > p {
+    font-family: robotoRegular;
+    margin-top: 40px;
+    padding: 0px 20px; }
+
+  .img_box {
+    max-width: 70%;
+    height: auto;
+    margin: 40px auto; }
+
+  .box > img {
+    max-width: 50%;
+    object-fit: contain; }
+
+  .box2 {
+    background-color: #FFF6F7; }
+
+  .box3 {
+    background-color: #EDFBFF; }
+
+  .buy_coin_section {
+    max-width: 100%;
+    height: auto; }
+
+  .btc_box {
+    background-color: white;
+    border: 2px solid #f8f8f8;
+    height: 320px; }
+
+  .coin_holder {
+    margin: 40px auto; }
+
+  .bs_button {
+    width: 50%;
+    height: 45px;
+    border-top: 2px solid #f8f8f8;
+    margin-top: 35px;
+    float: left; }
+
+  .bs_button a {
+    display: block; }
+
+  .buy {
+    border-bottom-left-radius: 10px;
+    border-right: 2px solid #f8f8f8; }
+
+  .buy > a, .sell > a {
+    font-family: robotoRegular;
+    margin-top: 10px; }
+
+  .sell {
+    border-bottom-right-radius: 10px; } }
+
+/*# sourceMappingURL=mystyles.css.map */
