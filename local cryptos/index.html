@@ -7,12 +7,18 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="scss/mystyles.css">
         <link rel="stylesheet" type="text/css" href="scss/menu.css">
+        <link rel="stylesheet" type="text/css" href="scss/slider.css">
+        <link rel="stylesheet" type="text/css" href="scss/accordion.css">
     </head>
     <body>
         <div class="nav_bar">
-            <button class="hamburger" id="myBtn" onclick="myFunction()"><i class="fa fa-bars"></i></button>
-            <p>Local Cryptos</p>
-            <div class="contact_holder">
+            <div class="first_box">
+                <button class="hamburger" id="myBtn" onclick="myFunction()"><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="second_box">
+                <p>Escrowed Trades</p>
+            </div>
+            <div class="third_box">
                 <button class="contact_button">View</button>
             </div>
         </div>
@@ -38,13 +44,15 @@
             <button> Visit marketplace</button>
         </div>
         <div class="header_static_slider">
-            <img src="images/video-preview.192b02f0.webp">
+            <div class="image_box">
+                <img src="images/investors-investing-bitcoins_53876-64648.jpg">
+            </div>
         </div>
         <div class="header_section_bottom">
             <p>Hackers have stolen billions of dollars from centralized exchanges. LocalCryptos offers a different approach.</p>
-            <p>On LocalCryptos, users trade with each other — not with us.</p>
+            <p>LocalCryptos, users trade with each other — not with us.</p> 
             <p>Using a non-custodial peer-to-peer platform keeps you in control, and protects your wallet from theft.</p>
-            <p>LocalCryptos serves more than 100,000 crypto traders in 100+ countries.</p>   
+            <p>LocalCryptos serves more than 100,000 crypto traders in 100+ countries. </p>
         </div>
 
         <!---MidSection-->
@@ -116,11 +124,148 @@
             <div class="box box2">
                 <h4>More Coming Soon</h4>
                 <div class="img_box2">
-                   <!--<img src="images/moretocome.webp">-->
+                   <img src="images/moretocome.webp">
                 </div>
             </div>
         </div>
 
+        <!--HOW TO SECTION CREATE NEW BOXES-->
+        <div class="how_to_section">
+            <h4>How to trade</h4>
+            <h2>Peer-to-peer trading has never been easier</h2>
+            <div class="box how_box">
+                <div class="rounded">
+                    <div class= "number_holder">
+                        <p>1</p>
+                    </div>
+                </div>
+                <img src="images/1.svg" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Create an account</h3>
+                <p>Sign up today — it only takes thirty seconds.
+                    If you're technically inclined
+                </p>
+            </div>
+
+            <div class="box how_box">
+                <div class="rounded">
+                    <div class= "number_holder">
+                        <p>2</p>
+                    </div>
+                </div>
+                <img src="images/2nd-step-illustration.b8ccd6fa.svg" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Create an account</h3>
+                <p>Sign up today — it only takes thirty seconds.
+                    If you're technically inclined
+                </p>
+            </div>
+
+            <div class="box how_box">
+                <div class="rounded">
+                    <div class= "number_holder">
+                        <p>3</p>
+                    </div>
+                </div>
+                <img src="images/3rd-ste-illustration.178634f9.svg" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Create an account</h3>
+                <p>Sign up today — it only takes thirty seconds.
+                    If you're technically inclined
+                </p>
+            </div>
+
+            <div class="box how_box">
+                <div class="rounded">
+                    <div class= "number_holder">
+                        <p>4</p>
+                    </div>
+                </div>
+                <img src="images/4th-step-illustration.7b61ef43.svg" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Create an account</h3>
+                <p>Sign up today — it only takes thirty seconds.
+                    If you're technically inclined
+                </p>
+            </div>
+            <h2>The No 1 Rated Crypto Marketplace</h2>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width slides/quotes -->
+            <div class="mySlides">
+                <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+                <p class="author">- John Keats</p>
+            </div>
+  
+            <div class="mySlides">
+                <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+                <p class="author">- Ernest Hemingway</p>
+            </div>
+  
+            <div class="mySlides">
+                <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+                <p class="author">- Thomas A. Edison</p>
+            </div>
+  
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+  
+            <!-- Dots/bullets/indicators -->
+            <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <!--GOING SOCIAL-->
+        <div class="box social">
+            <h2>Join us on Telegram</h2>
+            <p>Talk with thousands of peer-to-peer crypto traders from around the world.</p>
+            <div class="social_links">
+                <a><span>English Channel</span></a>
+                <a><span>Spanish Channel</span></a>
+                <a><span>Russian Channel</span></a>
+            </div>
+        </div>
+
+        <!--FAQ SECTION-->
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="accordian_container">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+            <h3>Community</h3>
+            <a>Follow us on twitter</a>
+            <a>Follow us on instagram</a>
+            <a>Follow us on facebook</a>
+        </div>
+
+        <div class="footer">
+            <h3>About Us</h3>
+            <a>News and Updates</a>
+            <a>Our Teams</a>
+            <a>Subscribe for Newsletter</a>
+        </div>
+
+        <div class="footer">
+            <p>2020 OAP</p>
+        </div>
         
         
         
@@ -148,9 +293,50 @@
             btnClose.onclick = function myFunction() {
                 modal.style.display = "none";
             }
+
+
+            //TESTIMONIAL JS
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+
+            //ACCORDIAN JS
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                 panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+            }
         </script>
     </body>
-    
-
-
 </html>

@@ -1,6 +1,6 @@
 @import "font_file";
 $default_width: 100%;
-$primary_color: #9C71FF;
+$primary_color: #1058a1;
 $secondary_color: black;
 $default_margin: 40px;
 
@@ -11,7 +11,7 @@ $default_margin: 40px;
 	color: white;
 	font-family: spaceBold;
 	border-radius: 5px;
-	width: 80px;
+	width: 90px;
     //float: left;
 }
 
@@ -39,26 +39,49 @@ $default_margin: 40px;
     margin-top: -135px;
 }
 
-.nav_bar p{
+.second_box p{
     font: {
         family: $bold_font;
-        //size: 13px;
+        size: 13px;
     }
-    float: left;
-    margin: 25px 20px;
+    margin: 25px 5px;
 }
 
 .contact_button{
-    @include  button_styling();
+   @include  button_styling();
     margin-top: 15px;
 }
 
+
 @media (min-width:320px){
+    
     .nav_bar{
-        max-width: 100%;
-        @include bordered();
+        max-width: $default_width;
         height: 100px;
-        //position: sticky;
+        //margin-top: 100px;
+        //border: 2px solid orangered;
+    }
+    .first_box{
+        width: 24.9%;
+        height: 100px;
+        //border: 2px solid red;
+        float: left;
+        text-align: center;
+    }
+    .second_box{
+        width: 37.4%;
+        height: 100px;
+        //border: 2px solid palevioletred;
+        float: left;
+        text-align: center;
+    }
+
+    .third_box{
+        width: 37.4%;
+        height: 100px;
+        //border: 2px solid darkolivegreen;
+        float: right;
+        text-align: center;
     }
     
     .header_area{
@@ -93,28 +116,36 @@ $default_margin: 40px;
 
     .header_area button{
         @include button_styling();
-         width: 80%;
+         width: 150px;
          margin-top: $default_margin;
     }
 
     .header_static_slider{
-        height: 200px;
-        //border: 2px solid red;
         max-width: $default_width;
+        height: auto;
+        //border: 2px solid red;
         //margin-top: $default_margin;
     }
-    .header_static_slider img{
+
+    .image_box{
+        //border: 2px solid blue;
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .image_box img{
         object-fit: contain;
-        max-width: $default_width;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .header_section_bottom{
         //text-align: center;
         background-color: #f8f8f8;
         max-width: $default_width;
+        height: auto;
+        text-align: center;
     }
-
-   
 
     .header_section_bottom p{
         font: {
@@ -133,7 +164,7 @@ $default_margin: 40px;
 
     .box{
         max-width: 90%;
-        height: 400px;
+        height: auto;
         border: {
             style: solid;
             width: 2px;
@@ -141,7 +172,7 @@ $default_margin: 40px;
             radius: 10px;
         }
         margin: $default_margin auto;
-        background-color: #F7F6FF;
+        background-color: #ffcb89;
         text-align: center;
     }
 
@@ -223,16 +254,155 @@ $default_margin: 40px;
     }
 
     .img_box2{
-        border: 2px solid black;
-        max-width: 70%;
+        //border: 2px solid black;
+        max-width: 80%;
         height: auto;
         margin: $default_margin auto;
     }
 
     .img_box2 img{
         object-fit: contain;
-        max-width: 20%;
+        max-width: 100%;
+        max-height: 100%;
     }
+    .how_to_section{
+        width: $default_width;
+        height: auto;
+        //border: 2px solid red;
+    }
+    
+    .how_to_section h4{
+        font: {
+            family: $light_font;
+        }
+        padding: 0px 20px;
+    }
+
+    .how_to_section h2{
+        font: {
+            family: $bold_font;
+            //size: 25px;
+        }
+        padding: 0px 20px;
+    }
+
+    .how_box{
+        height: 450px;
+    }
+
+    .rounded{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FDECD6;
+        text-align: center;
+        position: relative;
+    }
+
+    .number_holder{
+        margin: 10px 13px;
+        width: 50%;
+        height: 30px;
+        //border: 2px solid black;
+        //border-radius: 50%;
+        position: absolute;
+        text-align: center;
+    }
+    
+    .number_holder p{
+        font: {
+            family: $bold_font;
+            size: 20px;
+        }
+    }
+
+    .how_to_section h3{
+        font-family: $bold_font;
+    }
+    .social{
+        background-image: url(../images/telegram.4d9c8350.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #39a1f5;
+        color: white;
+        height: 350px;
+    }
+    .social h2{
+        font-family: $bold_font;
+        margin-top: 20px;
+    }
+
+    .social_links{
+        margin-top: 20px;
+    }
+    .social_links a{
+        display: block;
+        padding: 10px;
+        font-family: $bold_font;
+        cursor: pointer;
+        width: 100%;
+        transition: 0.4s;
+    }
+
+    .social_links span::after {
+        content: '\00bb';
+        font-size: 25px;
+        position: absolute;
+        transition: 0.4s;
+        opacity: 0;
+        margin-top: -9px;
+        margin-left: 10px;
+        
+    }
+    
+    .social_links a:hover{
+        background-color: #1e92f0;
+        padding-right: 25px;
+    }
+
+    .social_links a:hover span::after{
+        opacity: 1;
+    }
+
+    .faq h2{
+        font-family: $bold_font;
+        padding: 10px 20px;
+
+    }
+
+    .accordian_container{
+        margin-top: $default_margin;
+    }
+
+    .footer{
+        margin-top: $default_margin;
+        text-align: center;
+    }
+
+    .footer h3{
+        padding: 10px 20px;
+        font-family: $bold_font;
+    }
+
+    .footer a{
+        font-family: $light_font;
+        display: block;
+        padding-top: 15px;
+    }
+
+    .footer span{
+        vertical-align: bottom;
+    }
+
+    .footer p{
+        font: {
+            family: $bold_font;
+            size: 12px;
+        }
+    }
+
+
+   
 
   
 
